@@ -1,3 +1,4 @@
 from django.contrib import admin
+from fmkb.add_img.models import Image
 
-# Register your models here.
+admin.site.register(Image)
