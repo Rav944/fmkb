@@ -85,6 +85,9 @@ DATABASES = {
         'OPTIONS': {
             'read_default_file': '/etc/mysql/my.cnf',
         },
+        'TEST': {
+            'NAME': 'test_fmkb',
+        }
     }
 }
 
